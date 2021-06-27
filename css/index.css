@@ -1,0 +1,23 @@
+body {
+    font-family: "蘋果儷中黑", Microsoft JhengHei, "微軟正黑體", sans-serif;
+}
+
+.btn-outline-light:hover,
+.btn-outline-light:focus,
+.btn-outline-light:active,
+.btn-outline-light.active,
+.open>.dropdown-toggle.btn-outline-light {
+    color: pink;
+    background-color: #fff;
+    border-color: pink;
+    /*set the color you want here*/
+}
+
+.center {
+    margin: 0;
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
