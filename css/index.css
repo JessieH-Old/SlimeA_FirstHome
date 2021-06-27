@@ -10,14 +10,4 @@ body {
     color: pink;
     background-color: #fff;
     border-color: pink;
-    /*set the color you want here*/
 }
-
-/* .center {
-    margin: 0;
-    position: absolute;
-    top: 10%;
-    left: 50%;
-    -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
-} */
