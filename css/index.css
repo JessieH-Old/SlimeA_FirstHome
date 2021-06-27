@@ -13,11 +13,11 @@ body {
     /*set the color you want here*/
 }
 
-.center {
+/* .center {
     margin: 0;
     position: absolute;
-    top: 80%;
+    top: 10%;
     left: 50%;
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
-}
+} */
