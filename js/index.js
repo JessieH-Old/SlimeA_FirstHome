@@ -1,3 +1,7 @@
+function hints() {
+    window.alert('沒有自動撥播音樂的自己按一下右下角歐～');
+}
+
 function imgrolling() {
     if (document.getElementById('img1').src === document.getElementById('img6').src) {
         document.getElementById('start').classList.add('d-none');

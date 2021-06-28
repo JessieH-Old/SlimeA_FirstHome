@@ -8,7 +8,7 @@
     <link href="css/bootstrap.min.css" rel="stylesheet" />
     <link href="css/index.css" rel="stylesheet" />
   </head>
-  <body style="background-color: pink">
+  <body style="background-color: pink" onload="hints()">
     <div class="container-fluid">
       <div class="w-100">
         <h1 class="d-flex justify-content-center text-white mt-5 fw-bold">
@@ -80,7 +80,7 @@
           class="mt-5 rounded mx-auto d-block d-none"
           width="35%"
         />
-        <audio id="audio" autoplay>
+        <audio class="position-absolute bottom-0 end-0" autoplay="loop" controls>
           <source src="songs/Happy-birthday-song.mp3" type="audio/mp3" />
         </audio>
       </div>
